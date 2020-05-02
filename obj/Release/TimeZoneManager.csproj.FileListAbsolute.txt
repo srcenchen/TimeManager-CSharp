@@ -1,0 +1,9 @@
+D:\Codes\Cs\GitHub\TimeZone\WindowsFormsApp1\bin\Release\WindowsFormsApp1.exe
+D:\Codes\Cs\GitHub\TimeZone\WindowsFormsApp1\bin\Release\WindowsFormsApp1.pdb
+D:\Codes\Cs\GitHub\TimeZone\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Manager.resources
+D:\Codes\Cs\GitHub\TimeZone\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Properties.Resources.resources
+D:\Codes\Cs\GitHub\TimeZone\WindowsFormsApp1\obj\Release\TimeZoneManager.csproj.GenerateResource.cache
+D:\Codes\Cs\GitHub\TimeZone\WindowsFormsApp1\obj\Release\TimeZoneManager.csproj.CoreCompileInputs.cache
+D:\Codes\Cs\GitHub\TimeZone\WindowsFormsApp1\obj\Release\WindowsFormsApp1.exe
+D:\Codes\Cs\GitHub\TimeZone\WindowsFormsApp1\obj\Release\WindowsFormsApp1.pdb
+D:\Codes\Cs\GitHub\TimeZone\WindowsFormsApp1\obj\Release\TimeZoneManager.csprojAssemblyReference.cache
