@@ -1,11 +1,10 @@
-D:\Codes\Cs\GitHub\TimeManager-CSharp\obj\Debug\TimeManager-CSharp.csprojAssemblyReference.cache
-D:\Codes\Cs\GitHub\TimeManager-CSharp\obj\Debug\TimeManager_CSharp.Properties.Resources.resources
-D:\Codes\Cs\GitHub\TimeManager-CSharp\obj\Debug\TimeManager-CSharp.csproj.GenerateResource.cache
-D:\Codes\Cs\GitHub\TimeManager-CSharp\obj\Debug\TimeManager-CSharp.csproj.CoreCompileInputs.cache
 D:\Codes\Cs\GitHub\TimeManager-CSharp\bin\Debug\TimeManager-CSharp.exe
 D:\Codes\Cs\GitHub\TimeManager-CSharp\bin\Debug\TimeManager-CSharp.pdb
 D:\Codes\Cs\GitHub\TimeManager-CSharp\bin\Debug\Newtonsoft.Json.dll
 D:\Codes\Cs\GitHub\TimeManager-CSharp\obj\Debug\WindowsFormsApp1.Manager.resources
+D:\Codes\Cs\GitHub\TimeManager-CSharp\obj\Debug\TimeManager_CSharp.Properties.Resources.resources
+D:\Codes\Cs\GitHub\TimeManager-CSharp\obj\Debug\TimeManager-CSharp.csproj.GenerateResource.cache
+D:\Codes\Cs\GitHub\TimeManager-CSharp\obj\Debug\TimeManager-CSharp.csproj.CoreCompileInputs.cache
 D:\Codes\Cs\GitHub\TimeManager-CSharp\obj\Debug\TimeManager-CSharp.csproj.CopyComplete
 D:\Codes\Cs\GitHub\TimeManager-CSharp\obj\Debug\TimeManager-CSharp.exe
 D:\Codes\Cs\GitHub\TimeManager-CSharp\obj\Debug\TimeManager-CSharp.pdb
