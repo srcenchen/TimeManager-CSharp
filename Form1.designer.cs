@@ -32,6 +32,7 @@
             this.timeChange = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Talk = new System.Windows.Forms.RichTextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -76,9 +77,20 @@
             this.Talk.TabIndex = 3;
             this.Talk.Text = "昨天再好，走不回去，明天再难，也要抬脚继续";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label3.Location = new System.Drawing.Point(87, 218);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(83, 12);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "版本:0.0.1(a)";
+            // 
             // Manager
             // 
-            this.ClientSize = new System.Drawing.Size(182, 240);
+            this.ClientSize = new System.Drawing.Size(182, 239);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.Talk);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.timeChange);
@@ -100,6 +112,7 @@
         public System.Windows.Forms.Label timeChange;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RichTextBox Talk;
+        private System.Windows.Forms.Label label3;
     }
 }
 
