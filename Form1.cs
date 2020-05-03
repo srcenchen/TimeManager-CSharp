@@ -64,7 +64,6 @@ namespace WindowsFormsApp1
                     Thread.Sleep(3000);
                     Number = 1;
                     _syncContext.Post(SetLabelText, talk[i]);
-
                 }
 
             }
