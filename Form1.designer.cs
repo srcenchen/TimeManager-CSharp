@@ -87,7 +87,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 12);
             this.label3.TabIndex = 4;
-            this.label3.Text = "版本:0.2.6(b)";
+            this.label3.Text = "版本:0.2.8(b)";
             // 
             // button3
             // 

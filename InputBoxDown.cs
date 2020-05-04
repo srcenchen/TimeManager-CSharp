@@ -37,12 +37,18 @@ namespace TimeManager_CSharp
 
                 Console.WriteLine(resultstring);
 
-                System.IO.File.WriteAllText(@"./talk.json", resultstring, Encoding.Default);
+                try {
+                    System.IO.File.WriteAllText(@"./talk.json", resultstring, Encoding.Default);
+                    MessageBox.Show("配置成功！");
+                    Application.Exit();
+                    System.Diagnostics.Process.Start(System.Reflection.Assembly.GetExecutingAssembly().Location);
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("在服务器上找到了配置文件，但替换失败！\n解决方法：\n关闭本软件，右键本软件图标，\n以管理员身份启动，这是一个已知Bug！", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-                MessageBox.Show("配置成功！");
-
-                Application.Exit();
-                System.Diagnostics.Process.Start(System.Reflection.Assembly.GetExecutingAssembly().Location);
+                    
+                }
 
             }
             catch (Exception)
