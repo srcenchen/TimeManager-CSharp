@@ -85,7 +85,6 @@
             this.Name = "InputBoxUpload";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "InputBox";
-            this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 

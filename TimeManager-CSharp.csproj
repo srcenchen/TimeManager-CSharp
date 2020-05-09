@@ -253,12 +253,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AllScreen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AllScreen.Designer.cs">
-      <DependentUpon>AllScreen.cs</DependentUpon>
-    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -277,6 +271,12 @@
     <Compile Include="InputBoxUpload.Designer.cs">
       <DependentUpon>InputBoxUpload.cs</DependentUpon>
     </Compile>
+    <Compile Include="newTalk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newTalk.Designer.cs">
+      <DependentUpon>newTalk.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TimeFont.cs" />
@@ -287,9 +287,6 @@
       <DependentUpon>UpAndDo.cs</DependentUpon>
     </Compile>
     <Compile Include="UpCloudCon.cs" />
-    <EmbeddedResource Include="AllScreen.resx">
-      <DependentUpon>AllScreen.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -298,6 +295,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InputBoxUpload.resx">
       <DependentUpon>InputBoxUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newTalk.resx">
+      <DependentUpon>newTalk.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
