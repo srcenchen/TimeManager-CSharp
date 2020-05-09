@@ -50,3 +50,4 @@ D:\Codes\Cs\GitHub\TimeManager-CSharp\bin\Debug\System.Runtime.CompilerServices.
 D:\Codes\Cs\GitHub\TimeManager-CSharp\bin\Debug\UpYun.NETCore.SDK.dll
 D:\Codes\Cs\GitHub\TimeManager-CSharp\bin\Debug\System.Buffers.xml
 D:\Codes\Cs\GitHub\TimeManager-CSharp\bin\Debug\System.Numerics.Vectors.xml
+D:\Codes\Cs\GitHub\TimeManager-CSharp\obj\Debug\TimeManager_CSharp.AllScreen.resources

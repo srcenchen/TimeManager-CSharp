@@ -21,6 +21,7 @@ namespace TimeManager_CSharp
         {
             InputBoxUpload inputBoxUpload = new InputBoxUpload();
             inputBoxUpload.ShowDialog();
+          
         }
 
         private void button2_Click(object sender, EventArgs e)

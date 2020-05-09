@@ -46,14 +46,13 @@ namespace TimeManager_CSharp
                 catch (Exception)
                 {
                     MessageBox.Show("在服务器上找到了配置文件，但替换失败！\n解决方法：\n关闭本软件，右键本软件图标，\n以管理员身份启动，这是一个已知Bug！", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
                     
                 }
 
             }
             catch (Exception)
             {
-                MessageBox.Show("在服务器上没有找到关于“" + getnames1.Text.ToString() + "”的记录！", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("在服务器上没有找到关于“" + getnames1.Text.ToString() + "”的记录！或者请检查网络连接及网络认证！", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
