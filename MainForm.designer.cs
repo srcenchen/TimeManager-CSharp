@@ -46,9 +46,9 @@
             this.label1.Font = new System.Drawing.Font("宋体", 20F);
             this.label1.Location = new System.Drawing.Point(-4, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 27);
+            this.label1.Size = new System.Drawing.Size(66, 27);
             this.label1.TabIndex = 0;
-            this.label1.Text = "本地时间";
+            this.label1.Text = "时间";
             // 
             // timeChange
             // 
@@ -120,7 +120,7 @@
             this.VersionID.Name = "VersionID";
             this.VersionID.Size = new System.Drawing.Size(35, 12);
             this.VersionID.TabIndex = 10;
-            this.VersionID.Text = "0.4.0";
+            this.VersionID.Text = "0.4.1";
             // 
             // label6
             // 
