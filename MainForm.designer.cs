@@ -33,9 +33,11 @@
             this.timeChange = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Talk = new System.Windows.Forms.RichTextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.VersionID = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -80,16 +82,6 @@
             this.Talk.TabIndex = 3;
             this.Talk.Text = "";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(87, 189);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 12);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "版本:0.3.0(b)";
-            // 
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(95, 90);
@@ -104,18 +96,50 @@
             // 
             this.button1.Location = new System.Drawing.Point(12, 185);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 20);
+            this.button1.Size = new System.Drawing.Size(67, 20);
             this.button1.TabIndex = 8;
             this.button1.Text = "切换视图";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label4.Location = new System.Drawing.Point(84, 189);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 12);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "版本:";
+            // 
+            // VersionID
+            // 
+            this.VersionID.AutoSize = true;
+            this.VersionID.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.VersionID.Location = new System.Drawing.Point(114, 189);
+            this.VersionID.Name = "VersionID";
+            this.VersionID.Size = new System.Drawing.Size(35, 12);
+            this.VersionID.TabIndex = 10;
+            this.VersionID.Text = "0.4.0";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label6.Location = new System.Drawing.Point(146, 189);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(23, 12);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "(R)";
+            // 
             // formsc
             // 
             this.ClientSize = new System.Drawing.Size(182, 210);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.VersionID);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.Talk);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.timeChange);
@@ -139,9 +163,11 @@
         public System.Windows.Forms.Label timeChange;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RichTextBox Talk;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label VersionID;
+        private System.Windows.Forms.Label label6;
     }
 }
 

@@ -38,6 +38,7 @@ namespace TimeManager_CSharp
                 Console.WriteLine(resultstring);
 
                 try {
+
                     System.IO.File.WriteAllText(@"./talk.json", resultstring, Encoding.Default);
                     MessageBox.Show("配置成功！");
                     Application.Exit();

@@ -26,6 +26,46 @@ namespace WindowsFormsApp1
         Thread thread1;
         public void Manager_Load(object sender, EventArgs e)
         {
+            try
+            {
+                HttpDownloadFile("http://sancloud.lyqmc.cn/TimeZone/UpdateJson/tmVersion.json", "tmVersion.json");
+                StreamReader sr = new StreamReader("./tmVersion.json", Encoding.UTF8);
+                String line = sr.ReadLine();
+                JsonTextReader jsonTextReader = new JsonTextReader(new StringReader(line));
+                JObject jObject = (JObject)JToken.ReadFrom(jsonTextReader);
+                if (!jObject["newVersion"].ToString().Equals(VersionID.Text.ToString()))
+                {
+                    DialogResult dr = MessageBox.Show("检测到新版本：" + jObject["newVersion"].ToString() + "\n更新内容：\n" +
+                        jObject["newVersionInfo"].ToString() +
+                        "\n是否升级，推荐升级！", "新版本提示",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                    if (dr == DialogResult.Yes)
+                    {
+                        try
+                        {
+                            System.Diagnostics.Process.Start(Application.StartupPath + "./TimeZoneUpdate.exe");
+                            System.Environment.Exit(0);
+                        }
+                        catch (Exception)
+                        {
+                            MessageBox.Show("没有找到更新程序！", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+
+                    } else
+                    {
+                        sr.Close();
+                        File.Delete("./tmVersion.json");
+                    }
+                } else
+                {
+                    sr.Close();
+                    File.Delete("./tmVersion.json");
+                }
+            } catch(Exception)
+            {
+
+            }
+
             Thread thread = new Thread(new ThreadStart(ChangeTimeThread));
             thread.IsBackground = true;
             thread.Start();
@@ -33,6 +73,27 @@ namespace WindowsFormsApp1
             thread1 = new Thread(new ThreadStart(ChangeTalkThread));
             thread1.IsBackground = true;
             thread1.Start();
+        }
+
+        public void HttpDownloadFile(string url, string path)
+        {
+            // 设置参数
+            HttpWebRequest request = WebRequest.Create(url) as HttpWebRequest;
+            //发送请求并获取相应回应数据
+            HttpWebResponse response = request.GetResponse() as HttpWebResponse;
+            //直到request.GetResponse()程序才开始向目标网页发送Post请求
+            Stream responseStream = response.GetResponseStream();
+            //创建本地文件写入流
+            Stream stream = new FileStream(path, FileMode.Create);
+            byte[] bArr = new byte[1024];
+            int size = responseStream.Read(bArr, 0, (int)bArr.Length);
+            while (size > 0)
+            {
+                stream.Write(bArr, 0, size);
+                size = responseStream.Read(bArr, 0, (int)bArr.Length);
+            }
+            stream.Close();
+            responseStream.Close();
         }
 
         public void ChangeTalkThread()

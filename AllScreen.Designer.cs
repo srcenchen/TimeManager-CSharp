@@ -48,9 +48,9 @@
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(203, 175);
+            this.exitButton.Location = new System.Drawing.Point(209, 146);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(75, 23);
+            this.exitButton.Size = new System.Drawing.Size(75, 30);
             this.exitButton.TabIndex = 1;
             this.exitButton.TabStop = false;
             this.exitButton.Text = "退出";
@@ -59,9 +59,9 @@
             // 
             // changeButton
             // 
-            this.changeButton.Location = new System.Drawing.Point(203, 146);
+            this.changeButton.Location = new System.Drawing.Point(290, 146);
             this.changeButton.Name = "changeButton";
-            this.changeButton.Size = new System.Drawing.Size(75, 23);
+            this.changeButton.Size = new System.Drawing.Size(75, 30);
             this.changeButton.TabIndex = 2;
             this.changeButton.TabStop = false;
             this.changeButton.Text = "切换视图";
@@ -82,9 +82,9 @@
             // 
             // TalkButton
             // 
-            this.TalkButton.Location = new System.Drawing.Point(203, 204);
+            this.TalkButton.Location = new System.Drawing.Point(209, 182);
             this.TalkButton.Name = "TalkButton";
-            this.TalkButton.Size = new System.Drawing.Size(75, 23);
+            this.TalkButton.Size = new System.Drawing.Size(75, 30);
             this.TalkButton.TabIndex = 4;
             this.TalkButton.Text = "寄语管理";
             this.TalkButton.UseVisualStyleBackColor = true;

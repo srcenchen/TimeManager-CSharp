@@ -50,3 +50,4 @@ D:\Codes\Cs\GitHub\TimeManager-CSharp\obj\Release\TimeManager-CSharp.csproj.Core
 D:\Codes\Cs\GitHub\TimeManager-CSharp\obj\Release\TimeManager-CSharp.csproj.CopyComplete
 D:\Codes\Cs\GitHub\TimeManager-CSharp\obj\Release\时间管理.exe
 D:\Codes\Cs\GitHub\TimeManager-CSharp\obj\Release\时间管理.pdb
+D:\Codes\Cs\GitHub\TimeManager-CSharp\obj\Release\TimeManager_CSharp.AllScreen.resources

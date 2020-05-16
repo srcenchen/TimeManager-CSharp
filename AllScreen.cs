@@ -31,9 +31,9 @@ namespace TimeManager_CSharp
             int x = this.Width;
             int y = this.Height;
             TimeLabel.SetBounds(x / 2 - 196, 10, 0, 0);
-            changeButton.SetBounds(0, y - 25, 80, 25);
-            exitButton.SetBounds(170, y - 25, 80, 25);
-            TalkButton.SetBounds(85, y - 25, 80, 25);
+            changeButton.SetBounds(0, y - 30, 80, 30);
+            exitButton.SetBounds(170, y - 30, 80, 30);
+            TalkButton.SetBounds(85, y - 30, 80, 30);
             
             int geti = 0;
             for (int i = 0; i < exitButton.Location.Y - 144; i++)
